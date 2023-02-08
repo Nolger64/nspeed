@@ -9,7 +9,7 @@ function useSpeed() {
     //Inicializa la variable loaded
     let loaded = 0;
     //1 MB Inicializa la variable fileSize
-    const fileSize = 100000000000;
+    const fileSize = 10000000;
     //Crea un nuevo objeto Image  y lo asigna a la variable download
     const download = new Image();
     //Cuando la imagen se carga, se ejecuta la función de devolución de llamada
